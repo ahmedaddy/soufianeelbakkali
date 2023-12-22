@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/soufianeelbakkali/static/css/main.1bc48fd8.css",
+    "main.js": "/soufianeelbakkali/static/js/main.a4cd9770.js",
+    "static/media/background.png": "/soufianeelbakkali/static/media/background.6bc3879e148c068ddde0.png",
+    "static/media/logo.png": "/soufianeelbakkali/static/media/logo.563965553538e72cda6a.png",
+    "index.html": "/soufianeelbakkali/index.html",
+    "main.1bc48fd8.css.map": "/soufianeelbakkali/static/css/main.1bc48fd8.css.map",
+    "main.a4cd9770.js.map": "/soufianeelbakkali/static/js/main.a4cd9770.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bc48fd8.css",
+    "static/js/main.a4cd9770.js"
+  ]
+}
