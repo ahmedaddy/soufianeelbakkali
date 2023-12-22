@@ -1,0 +1,106 @@
+.home {
+  background-image: url("../../Assets/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 100;
+}
+.home::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #000000b0 12%, transparent 100%);
+  z-index: -1;
+}
+.home .holder {
+  position: relative;
+  height: calc(100vh - 96px);
+}
+.home .content {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  color: #fff;
+}
+.home .content h5 {
+  letter-spacing: 2px;
+}
+.home .content h1 {
+  font-family: cursive;
+}
+.home .content h1 span {
+  color: var(--blue-color);
+  font-weight: 800;
+}
+.home .content p {
+  width: 70%;
+}
+.home .content .forMore {
+  position: relative;
+  z-index: 2;
+  background: var(--blue-color);
+  width: fit-content;
+  color: #fff;
+  transform: skewX(-15deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 200px;
+}
+.home .content .forMore::before {
+  content: "";
+  position: absolute;
+  height: 60px;
+  width: 1000%;
+  background-color: var(--dark-color);
+  left: -1000%;
+  top: 0;
+}
+.home .content .forMore a {
+  color: #fff;
+  position: absolute;
+}
+.home .content .mouse--scrole {
+  width: fit-content;
+  position: relative;
+  top: 80px;
+  left: 60px;
+}
+.home .content .mouse--scrole::before {
+  content: "";
+  position: absolute;
+  height: 100vh;
+  width: 3px;
+  background-color: var(--blue-color);
+  left: 50%;
+  top: 70px;
+}
+.home .content .forMore svg {
+  margin-left: 10px;
+}
+.home .content .mouse--scrole svg {
+  font-size: 38px;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .home .content {
+    width: 100%;
+  }
+  .home .content p {
+    width: 90%;
+  }
+}
+@media (max-width: 990px) {
+  .home .content {
+    width: 100%;
+  }
+}

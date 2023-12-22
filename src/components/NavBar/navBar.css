@@ -1,0 +1,94 @@
+nav {
+  color: #fff;
+  padding: 20px 0;
+}
+nav,
+nav .links--logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+nav .links--logo .logo {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-right: 40px;
+}
+nav .links--logo .logo img {
+  width: 110px;
+}
+nav .links--logo ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+nav .links--logo ul li {
+  padding: 6px 12px;
+}
+nav .links--logo ul li a.active {
+  border-bottom: 3px solid var(--blue-color);
+}
+nav .links--logo ul li a:hover {
+  border-bottom: 3px solid var(--blue-color);
+}
+nav .links--logo ul li a {
+  color: #fff;
+  padding-bottom: 5px;
+}
+nav .search-market-login {
+  display: flex;
+  align-items: center;
+}
+nav .search-market-login .login {
+  padding: 16px 30px;
+  position: relative;
+  z-index: 2;
+  margin-left: 70px;
+}
+nav .search-market-login .login::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -30%;
+  height: 60px;
+  width: 260px;
+  background-color: var(--blue-color);
+  z-index: -1;
+  transform: skewX(-25deg);
+}
+nav .search-market-login .login::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--dark-color);
+  height: 60px;
+  width: 1000px;
+  z-index: -2;
+}
+nav .search-market-login .login a {
+  color: #fff;
+}
+nav .search-market-login svg {
+  font-size: 22px;
+}
+nav .search-market-login .login > svg {
+  margin-left: 40px;
+  font-size: 20px;
+}
+nav .search-market-login svg:first-child {
+  margin-right: 18px;
+}
+svg {
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  nav .search-market-login {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 388px) {
+  nav .links--logo .logo {
+    margin: auto;
+  }
+}
