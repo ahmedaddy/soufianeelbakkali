@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/zeintsuTheProgrammer/soufianeelbakkali",
+  "homepage": "https://zeintsuTheProgrammer.github.io/soufianeelbakkali",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
